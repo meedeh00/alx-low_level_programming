@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print in caps and lower case
+ * main - print in caps and low case
  * Return: 0 (working)
  */
 int main(void)
@@ -8,14 +8,14 @@ int main(void)
 	char Lower = 'a';
 	char Upper = 'A';
 
-	while (lower < = 'z')
+	while (Lower <= 'z')
 	{
-		putchar(lower);
+		putchar(Lower);
 		Lower++;
 	}
-	while (upper < = 'z')
+	while (Upper <= 'z')
 	{
-		putchar(upper);
+		putchar(Upper);
 		Upper++;
 	}
 	putchar('\n');
