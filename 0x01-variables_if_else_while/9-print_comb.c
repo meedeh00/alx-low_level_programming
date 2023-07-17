@@ -7,7 +7,7 @@ int main(void)
 {
 	int numbers = '0';
 
-	while (numbers <= '9')
+	while (numbers <= '8')
 	{
 		putchar(numbers);
 		if (numbers != 8)
