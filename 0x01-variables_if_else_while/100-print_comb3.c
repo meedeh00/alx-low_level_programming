@@ -27,7 +27,7 @@ int main(void)
 			num_2++;
 		}
 		num_1++;
-		NUM_2 = '0';
+		num_2 = '0';
 	}
 	putchar('\n');
 	return (0);
